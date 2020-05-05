@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="books">
+            <div>
+                <label for="title">Название</label>
+                <input type="text" id="title">
+            </div>
+            <div>
+                <label for="author">Автор</label>
+                <input type="text" id="author">
+            </div>
+            <div>
+                <label for="year">Год издания</label>
+                <input type="text" id="year">
+            </div>
+            <div>
+                <label for="public">Издательство</label>
+                <input type="text" id="public">
+            </div>
+            <div>
+                <label for="exampls">Количество экземпляров</label>
+                <input type="text" id="exampls">
+            </div>
+            <div>
+                <label for="id">Индефикационный номер</label>
+                <input type="text" id="id">
+            </div>
+            <div>
+                <label for="pages"></label>Количество страниц</label>
+                <input type="text" id="pages">
+            </div>
+            <div>
+                <input type="submit" value="Get   Book">
+            </div>
+        </form>
+        <form id="travelbooks">
+            <div>
+                <label for="titleone">Название</label>
+                <input type="text" id="titleone">
+            </div>
+            <div>
+                <label for="publicone">Издательство</label>
+                <input type="text" id="publicone">
+            </div>
+            <div>
+                <label for="examplsone">Количество экземпляров</label>
+                <input type="text" id="examplsone">
+            </div>
+            <div>
+                <label for="pagesone"></label>Количество страниц</label>
+                <input type="text" id="pagesone">
+            </div>
+            <div>
+                <input type="submit" value="Get Travel Book">
+            </div>
+</form>
+        <ol id="list-books">
+            <ul class="head_list">
+                <li>Название книги</li>
+                <li>Автор</li>
+                <li>Год издания</li>
+                <li>Издательство</li>
+                <li>Количество экземпляров</li>
+                <li>Индефикационный номер</li>
+                <li>Количество страниц</li>
+
+            </ul>
+        </ol>
+        <ol id="travel-books">
+            <ul class="head_listone">
+                <li>Название книги</li>
+                <li>Издательство</li>
+                <li>Количество экземпляров</li>
+                <li>Количество страниц</li>
+
+            </ul>
+        </ol>
+</div>        
+ <script src="./book.js"></script> 
+ <script src="./viewbook.js"></script> 
+ <script src="./travelbook.js"></script>
+
+<script src="./script.js"></script>
+</body>
+</html>
